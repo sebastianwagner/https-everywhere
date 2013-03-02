@@ -1,0 +1,8 @@
+<ruleset name="Krautspace.de Tür (self-signed)" default_off="self-signed">
+  <target host="tuer.hackspace-jena.de" />
+
+  <!-- door -->
+  <rule from="^http://tuer\.hackspace-jena\.de/"
+    to="https://tuer.hackspace-jena.de/" />
+
+</ruleset>

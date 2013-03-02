@@ -1,0 +1,35 @@
+<ruleset name="Krautspace.de">
+  <target host="krautspace.de" />
+  <target host="www.krautspace.de" />
+  <target host="media.krautspace.de" />
+  <target host="hackspace-jena.de" />
+  <target host="www.hackspace-jena.de" />
+  <target host="media.hackspace-jena.de" />
+  <!-- @see Krautspace.de.Tuer.xml -->
+  <!-- <target host="tuer.hackspace-jena.de" /> -->
+  <target host="status.hackspace-jena.de" />
+
+
+  <!-- wiki -->
+  <rule from="^http://(www\.)?krautspace\.de/"
+    to="https://www.krautspace.de/" />
+  <rule from="^http://(www\.)?hackspace-jena\.de/"
+    to="https://www.krautspace.de/" />
+
+  <!-- media -->
+  <rule from="^http://media\.krautspace\.de/"
+    to="https://media.krautspace.de/" />
+  <rule from="^http://media\.hackspace-jena\.de/"
+    to="https://media.krautspace.de/" />
+
+  <!-- status -->
+  <rule from="^http://status\.hackspace-jena\.de/"
+    to="https://status.hackspace-jena.de/" />
+
+  <!-- door -->
+  <!--
+  <rule from="^http://tuer\.hackspace-jena\.de/"
+    to="https://tuer.hackspace-jena.de/" />
+  -->
+
+</ruleset>
